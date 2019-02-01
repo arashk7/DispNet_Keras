@@ -17,4 +17,4 @@ Ground truth:
 
 Here is the prediction after 200 epochs:
 
-<img src="images/dispnet_predict.png" alt="predicted" class="inline" width="320" height="238" />
+<img src="images/dispnet_predict.png" alt="predicted" class="inline" width="320" height="298" />
