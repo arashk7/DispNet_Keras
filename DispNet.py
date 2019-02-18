@@ -136,7 +136,7 @@ class DispNet:
         print("Loaded model from disk")
         self.model = model
 
-    # Save model and weights from disk
+    # Save model and weights into model directory
     def save_model_and_weight(self, model_name):
         # serialize model to JSON
         model_json = self.model.to_json()
