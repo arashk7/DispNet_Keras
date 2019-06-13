@@ -153,7 +153,7 @@ class DispNet:
 
     # Train the model
     def train(self, x, y, x_vl, y_vl, n_epoch=20, batch_size=1):
-        self.model.fit([x], y, epochs=n_epoch, batch_size=batch_size, verbose=1,validation_data=(x_vl,y_vl))
+        self.model.fit([x], y, epochs=n_epoch, batch_size=batch_size, verbose=1,validation_split = 0.2)
 
     # Check the error rate on its input test data (x_test & y_test) and print the result in consule
     def get_error_rate(self, x_ts, y_ts):

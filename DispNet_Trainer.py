@@ -90,7 +90,7 @@ tic()
 # Train loop
 for i in range(epoch_co, 3000):
     # Train the model for one epoch
-    dsn.train(X, Y, x_vl, y_vl, n_epoch=1, batch_size=10)
+    dsn.train(X, Y, n_epoch=1, batch_size=10)
     # Check the error
     err = dsn.get_error_rate(X, Y)
 
